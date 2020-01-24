@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsServiceBus": "Endpoint=sb://...doesn't-work",
+    "ServiceBus": "Endpoint=sb://...doesn't-work",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "ConnectionStrings": {
+    "AzureWebJobsServiceBus": "Endpoint=sb://...doesn't-work",
+    "ServiceBus": "Endpoint=sb://...works-but-is-very-confusing"
+  } 
+}
